@@ -1,2 +1,5 @@
 class Lista < ApplicationRecord
-end
+    has_many :itens, dependent: :destroy
+    validates :title, presence: true
+  end
+  
