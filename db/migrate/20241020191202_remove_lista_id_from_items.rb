@@ -1,0 +1,5 @@
+class RemoveListaIdFromItems < ActiveRecord::Migration[7.2]
+  def change
+    remove_reference :items, :lista, null: false, foreign_key: true
+  end
+end

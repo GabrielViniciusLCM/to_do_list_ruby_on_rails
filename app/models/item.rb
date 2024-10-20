@@ -1,4 +1,4 @@
 class Item < ApplicationRecord
-  belongs_to :lista
+  belongs_to :list
   validates :content, presence: true
 end

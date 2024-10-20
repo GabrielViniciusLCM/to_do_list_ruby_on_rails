@@ -55,3 +55,8 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# Gemfile
+gem 'simple_form'
+gem 'bootstrap', '~> 5.0.2' # apenas se desejar usar o Bootstrap
+
