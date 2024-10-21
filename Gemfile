@@ -58,5 +58,5 @@ end
 
 # Gemfile
 gem 'simple_form'
-gem 'bootstrap', '~> 5.0.2' # apenas se desejar usar o Bootstrap
+gem 'bootstrap', '~> 5.3.3' # apenas se desejar usar o Bootstrap
 
